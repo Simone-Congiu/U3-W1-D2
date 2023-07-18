@@ -68,8 +68,10 @@ console.log(`il bilancio ora è ${saldoFiglio.balanceInit}`)
 let saldoMadre = new MotherAccount(30, 10)
 saldoMadre.oneDeposit(20)
 saldoMadre.oneDrow(20)
+saldoMadre.oneDeposit(60)
+saldoMadre.oneDrow(10)
+saldoMadre.addinterest()
 console.log(saldoMadre)
-
 
 
 
